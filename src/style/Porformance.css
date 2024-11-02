@@ -1,0 +1,28 @@
+.gradient-background {
+  display: inline-block; 
+  background: conic-gradient(
+    from 38.7deg at 22.09% 50%, 
+    #0C95C1 0deg, 
+    #075B75 265.02deg, 
+    #07526A 306.97deg, 
+    #06465B 360deg
+  );
+  -webkit-background-clip: text;
+  background-clip: text; 
+  color: transparent;
+}
+
+.gradient-background-color {
+  background: linear-gradient(to right, #F3FDFF 20%, #99E8FB 80%);
+}
+
+.gradient-background-dashboard {
+  background: linear-gradient(to right, #F3FDFF 10%, #99E8FB 90%);
+}
+
+.gradient-border {
+  /* border: 1px solid transparent; */
+  border-image-source: linear-gradient(108deg, #FFFFFF 0%, #0C95C1 100%);
+  border-image-slice: 1;
+  /* border-radius: 20px solid #0c95c1;  */
+}

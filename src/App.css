@@ -1,0 +1,59 @@
+.gradient-background {
+    display: inline-block; 
+    background: conic-gradient(
+      from 38.7deg at 22.09% 50%, 
+      #0C95C1 0deg, 
+      #075B75 265.02deg, 
+      #07526A 306.97deg, 
+      #06465B 360deg
+    );
+    -webkit-background-clip: text;
+    background-clip: text; 
+    color: transparent;
+    
+  }
+  .bg-ground {
+    background: linear-gradient(
+      to bottom,
+      #298dad 0%,        /* Start of gradient color */
+      #FFFFFF 20%,       /* End of top gradient (10%) */
+      rgba(255, 255, 255) 1%, /* Transparent center */
+      rgba(255, 255, 255) 80%, /* Transparent center end */
+      #FFFFFF 5%,       /* Start of bottom gradient (last 10%) */
+      #298dad 100%       /* End of gradient color */
+    );
+  }
+
+
+  .gradient-background-color {
+    background: linear-gradient(to right, #F3FDFF 20%, #99E8FB 80%);
+  }
+
+  .gradient-background-dashboard {
+    background: linear-gradient(to right, #F3FDFF 10%, #99E8FB 90%);
+  }
+  
+  .gradient-border {
+    /* border: 1px solid transparent; */
+    border-image-source: linear-gradient(2.28deg, #FFFFFF 1.91%, #0C95C1 98.09%);
+    border-image-slice: 1;
+    /* border-radius: 8px; */
+  }
+  
+
+/* Sidebar.css */
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 1px !important; /* Set the width of the scrollbar */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #99E8FB; /* Change scrollbar thumb color to #99E8FB */
+  border-radius: 1px; /* Optional: add rounded corners to the scrollbar thumb */
+}
+
+.custom-scrollbar {
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: #99E8FB transparent; /* For Firefox */
+}
+
